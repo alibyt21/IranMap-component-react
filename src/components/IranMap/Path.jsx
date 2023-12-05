@@ -11,6 +11,7 @@ export default function Path({
   const [hover, setHover] = useState(false);
   return (
     <path
+      className={`${province && province === selected ? 'selected' : ''}`}
       style={{cursor:"pointer"}}
       d={d}
       fill={

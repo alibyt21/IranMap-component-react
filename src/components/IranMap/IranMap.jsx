@@ -11,7 +11,7 @@ export default function IranMap() {
   };
   return (
     <div className="svg-wrapper">
-      <svg width="1000" height="800">
+      <svg version="1.1" id="map-area" xmlnsCc="http://creativecommons.org/ns#" xmlnsDc="http://purl.org/dc/elements/1.1/" xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="9.138 -13.888 605.804 559" enable-background="new 9.138 -13.888 605.804 559" xmlSpace="preserve">
         <a
           dataOstan="31"
           dataGroupcontent="1060"
